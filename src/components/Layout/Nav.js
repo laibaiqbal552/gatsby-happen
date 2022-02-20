@@ -26,10 +26,10 @@ const Nav = ({ backgroundColor }) => {
     <div className="main-container">
       <div className="w-full" style={{ backgroundColor: backgroundColor }}>
         <div className=" max-w-[1560px] mx-auto px-3 md:px-10 ">
-          <div className="flex justify-between self-center items-center w-full py-5">
+          <div className="flex justify-between self-center items-center w-full md:py-[41px] py-6">
             <Link href={`/`}>
               <a>
-                <img src={Logo2} alt="logo" className="w-[200px]" />
+                <img src={Logo2} alt="logo" className="" />
               </a>
             </Link>
             <ul className=" hidden lg:flex gap-[30px] self-center ">
@@ -38,7 +38,7 @@ const Nav = ({ backgroundColor }) => {
                 return (
                   <li key={id} className="flex self-center">
                     <Link href={url}>
-                      <a className="  text-base text-white  hover:text-white transition-all duration-300 ease-in-out capitalize">
+                      <a className="  text-sm text-white font-semibold capitalize">
                         {text}
                       </a>
                     </Link>
@@ -47,7 +47,7 @@ const Nav = ({ backgroundColor }) => {
               })}
               <li>
                 <Link href={"/"}>
-                  <a className=" px-4 py-2 rounded-[7px] text-sm font-semibold text-white  header-btn capitalize">
+                  <a className=" px-4 py-[13px] rounded-[7px] text-sm font-semibold text-white  header-btn capitalize">
                     Signup for Beta
                   </a>
                 </Link>

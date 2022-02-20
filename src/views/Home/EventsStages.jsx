@@ -43,8 +43,8 @@ function EventsStages() {
           </div>
         </div>
         <div className="grid md:grid-cols-2 gap-3  grid-cols-1 place-items-center pt-[97px]">
-          <div className="">
-            <div className="flex md:justify-start justify-center md:pt-0 pt-7">
+          <div className="md:order-1 order-2">
+            <div className="flex md:justify-start justify-center md:pt-0 pt-7 ">
               <img src={stage2} alt="" />
             </div>
           </div>
@@ -84,7 +84,7 @@ function EventsStages() {
               <img
                 src={stage2b}
                 alt=""
-                className="absolute left-[163px] bottom-12"
+                className="absolute left-[163px] md:w-auto md:block hidden bottom-12"
               />
             </div>
           </div>

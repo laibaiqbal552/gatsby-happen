@@ -11,6 +11,11 @@
 .inner-container {
   @apply max-w-[751px] mx-auto px-5;
 }
+.Communities {
+  background: linear-gradient(to right, #ffb870, #fd745f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media (max-width: 923px) {
   .hide-923 {
     display: none;

@@ -13,9 +13,9 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="main-container pt-12 pb-[90px] px-4 sm:px-6 lg:pt-16 lg:px-8">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 mb-20">
-          <div className="">
+      <div className="main-container pt-12 md:pb-[90px] pb-10 px-4 sm:px-6 lg:pt-16 lg:px-8">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 mb-20">
+          <div className="lg:col-span-1 md:col-span-3 sm:col-span-2 lg:block sm:flex justify-center">
             <div className="">
               <div className="pb-[22px]">
                 <img src={FooterLogo} alt="" />
@@ -93,12 +93,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-4 border-t border-footerBorder pt-8 md:flex md:items-center md:justify-between">
+        <div className="mt-4 border-t border-footerBorder pt-8 md:text-left text-center md:flex items-center md:justify-between justify-center">
           <p className="text-base text-primary">
             &copy; 2020 Workflow, Inc. All rights reserved.
           </p>
           <div>
-            <div className="flex gap-6">
+            <div className="flex gap-6 justify-center">
               <div>
                 <a href="/" className="text-sm text-primary">
                   privacy policy

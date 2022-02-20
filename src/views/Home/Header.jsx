@@ -6,12 +6,13 @@ import Headerright from "./../../images/Group 16 Copy 5.png";
 function Header() {
   return (
     <div>
-      <div className="main-conatiner text-white pt-[184px]">
+      <div className="main-conatiner text-white lg:pt-[184px]  pt-20">
         <div className="inner-container text-center">
-          <h1 className="font-medium text-[46px] pb-[21px]">
-            Turn Events into Communities
+          <h1 className="font-medium flex flex-wrap justify-center lg:text-[46px] text-4xl leading-[56px] pb-[21px]">
+            Turn Events into{" "}
+            <span className="Communities mx-3">Communities</span>
           </h1>
-          <p className="pb-[35px] font-medium text-lg">
+          <p className="pb-[35px] font-medium md:text-lg text-base">
             A home for your community, supporting live events with many
             conversations, icebreakers, and forums so conversations can continue
             between events

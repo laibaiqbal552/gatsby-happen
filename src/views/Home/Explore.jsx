@@ -4,10 +4,10 @@ import ExploreCards from "./ExploreCards";
 function Explore() {
   return (
     <div>
-      <div className="main-container text-white md:text-left text-center">
+      <div className="main-container text-white md:text-left text-center md:pt-[100px] pt-[70px] lg:pb-[100px] pb-2">
         <div>
           <h1 className="font-medium text-[46px] pb-[21px] ">Explore</h1>
-          <div className="flex gap-3 md:justify-between md:flex-row flex-col justify-center">
+          <div className="flex gap-3 md:justify-between lg:flex-nowrap flex-wrap md:flex-row flex-col justify-center">
             <p className="font-medium text-lg text-primary">
               Insights from our team, user success stories, and how to get
               started.
