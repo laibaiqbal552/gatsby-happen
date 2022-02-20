@@ -9,9 +9,9 @@ function Header() {
     <div>
       <div className="main-conatiner text-white lg:pt-[184px]  pt-20">
         <div className="inner-container text-center">
-          <h1 className="font-medium flex  flex-wrap justify-center lg:text-[46px] text-4xl leading-[56px] pb-[21px]">
+          <h1 className="font-medium  lg:text-[46px] text-4xl leading-[56px] pb-[21px]">
             Turn Events into{" "}
-            <span className="Communities mx-3">Communities</span>
+            <span className="Communities lg:mx-3">Communities</span>
           </h1>
           <p className="pb-[35px] font-medium md:text-lg text-base">
             A home for your community, supporting live events with many
