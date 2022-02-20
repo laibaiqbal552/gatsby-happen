@@ -48,7 +48,7 @@ function EventsStages() {
               <img src={stage2} alt="" />
             </div>
           </div>
-          <div>
+          <div className="md:order-2 order-1">
             <div className="max-w-[475px] md:text-left text-center">
               <h3 className="font-semibold text-white text-[28px] mb-5">
                 Metaverse on Mobile
