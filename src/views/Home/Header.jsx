@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderImg from "./../../images/Bitmap.png";
 import HeaderLeft from "./../../images/Group 16 Copy 3.png";
+import Headertopright from "./../../images/Combined Shape.png";
 import Headerright from "./../../images/Group 16 Copy 5.png";
 
 function Header() {
@@ -35,6 +36,11 @@ function Header() {
                 src={HeaderLeft}
                 alt=""
                 className="absolute -left-[237px] -top-[103px] z-10 hide-923"
+              />
+              <img
+                src={Headertopright}
+                alt=""
+                className="absolute -right-[279px] -top-[261px] z-10 hide-923"
               />
             </div>
             <div>
