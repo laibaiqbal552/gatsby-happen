@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-4 border-t border-footerBorder pt-8 md:text-left text-center md:flex items-center md:justify-between justify-center">
+        <div className="mt-4 border-t border-primary pt-8 md:text-left text-center md:flex items-center md:justify-between justify-center">
           <p className="text-base text-primary">
             &copy; 2020 Workflow, Inc. All rights reserved.
           </p>

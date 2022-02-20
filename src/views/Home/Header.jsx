@@ -9,7 +9,7 @@ function Header() {
     <div>
       <div className="main-conatiner text-white lg:pt-[184px]  pt-20">
         <div className="inner-container text-center">
-          <h1 className="font-medium flex flex-wrap justify-center lg:text-[46px] text-4xl leading-[56px] pb-[21px]">
+          <h1 className="font-medium flex  flex-wrap justify-center lg:text-[46px] text-4xl leading-[56px] pb-[21px]">
             Turn Events into{" "}
             <span className="Communities mx-3">Communities</span>
           </h1>
@@ -35,21 +35,21 @@ function Header() {
               <img
                 src={HeaderLeft}
                 alt=""
-                className="absolute -left-[237px] -top-[103px] z-10 hide-923"
+                className="absolute -left-[237px] -top-[103px]  hide-923"
               />
               <img
                 src={Headertopright}
                 alt=""
-                className="absolute -right-[279px] -top-[261px] z-10 hide-923"
+                className="absolute -right-[229px] w-[350px] lg:-top-[171px] -top-[200px]  lg:block hidden"
               />
             </div>
             <div>
-              <img src={HeaderImg} alt="" className="z-20" />
+              <img src={HeaderImg} alt="" className="relative z-10" />
             </div>
             <img
               src={Headerright}
               alt=""
-              className="absolute -right-[97px] -bottom-[33px] z-10 hide-923"
+              className="absolute -right-[97px] -bottom-[33px] z-[2] hide-923"
             />
           </div>
         </div>
